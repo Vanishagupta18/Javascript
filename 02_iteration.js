@@ -23,3 +23,20 @@ map.set('IN', "India")
 for (const [key, value] of map) {
     // console.log(`Key is ${key} and value is ${value}`);
 }
+
+const myObject = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: "ruby",
+    swift: "swift by apple"
+}
+
+for (const key in myObject) {
+    // console.log(`${key} shortcut is for ${myObject[key]}`);
+}
+
+const programming = ["js", "rb", "py", "java", "cpp"]
+
+for (const key in programming) {
+    console.log(programming[key]);
+}
