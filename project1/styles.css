@@ -1,0 +1,35 @@
+
+.button
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+span {
+  display: block;
+}
+
+#grey {
+  background: grey;
+}
+
+#black{
+  background: rgb(26, 26, 26);
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+#red {
+  background: red;
+}
+#beige {
+  background: beige;
+}
+#aqua{
+  background: aqua;
+}
