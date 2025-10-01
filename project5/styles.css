@@ -1,0 +1,17 @@
+ body{ 
+    background-color:cadetblue;
+    color:aliceblue; 
+   /* background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);  */
+  text-align: center;
+} 
+button{
+    background-color:rgb(38, 38, 38);
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius:10px;
+    padding: 22px;
+    border:none;
+    cursor:pointer;
+}
