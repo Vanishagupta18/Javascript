@@ -66,3 +66,19 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+//Stack(Primitive)(copy),Heap(Non-Primitive)(reference) Memory Management
+
+let userName = "Hitesh"
+let admin = userName
+
+console.log(userName);
+console.log(admin);
+
+let userOne = { name: "Hitesh"
+}
+let adminOne = userOne
+
+console.log(userOne);
+console.log(adminOne);
