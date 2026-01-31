@@ -59,7 +59,7 @@ const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 // console.log(Array.isArray("Hitesh"))//check array or not
 // console.log(Array.from("Hitesh"))//create array
-// console.log(Array.from({name: "hitesh"})) // interesting
+// console.log(Array.from({name: "hitesh"})) // interesting//empty array
 
 let score1 = 100
 let score2 = 200

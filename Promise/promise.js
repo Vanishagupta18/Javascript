@@ -8,9 +8,9 @@ const promiseOne = new Promise(function(resolve,reject){
     },1000);
 });
 
-// promiseOne.then(function(){
-//     console.log('Promise is fulfilled');
-// })
+promiseOne.then(function(){
+    console.log('Promise is fulfilled');
+})
 
 // new Promise(function(resolve, reject){
 //     setTimeout(function(){

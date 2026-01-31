@@ -10,9 +10,11 @@
     <button id="btn">Click Me</button>
 </body>
 <script>
-    setTimeout(function() {
-       console.log("3 seconds passed");
-        } , 3000);
+    // setTimeout(function() {//everything inside this function will run after 3 seconds
+    //    console.log("3 seconds passed");
+    //     } , 3000);
+
+
       
      const changeText = function(){
         document.querySelector('h1').innerHTML = "best JS series"
@@ -21,7 +23,7 @@
     const changeMe = setTimeout(changeText, 2000)
      
      document.querySelector('#btn').addEventListener('click', function(){
-        clearTimeout(changeMe)
+        clearTimeout(changeMe)// this will stop the timeout from running
         console.log("STOPPED")
     })
 

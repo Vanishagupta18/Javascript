@@ -13,14 +13,15 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-// console.log(this);
+console.log(this);// global object but in browser it is window object
+
 // function myFunc() {
 //     console.log(this);
 // }
 
 // myFunc()
 
-// const chai = function () {
+// const chai = function () {//this keyword is not able to used in function
 //     let username = "hitesh"
 //     console.log(this.username);
 // }

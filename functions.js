@@ -28,7 +28,7 @@ function loginUserMessage(username="arjun"){//default parameter username is arju
 // console.log(loginUserMessage("hitesh"))
 console.log(loginUserMessage())
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){//rest operator ...num1
     return num1
 }
 

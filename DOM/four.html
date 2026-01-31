@@ -12,39 +12,39 @@
     </ul>
 </body>
 <script>
-    // function addLanguage(langName){
-    //     const li = document.createElement('li');
-    //     li.innerHTML = `${langName}`
-    //     document.querySelector('.language').appendChild(li)
-    // }
-    // addLanguage("python")
-    // addLanguage("typescript")
+    function addLanguage(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("typescript")
 
     //optimized version
 
-    function addOptiLanguage(langName){
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode(langName))
-        document.querySelector('.language').appendChild(li)
-    }
-    addOptiLanguage('golang')
-    addOptiLanguage('Rust')
+    // function addOptiLanguage(langName){
+    //     const li = document.createElement('li');
+    //     li.appendChild(document.createTextNode(langName))
+    //     document.querySelector('.language').appendChild(li)
+    // }
+    // addOptiLanguage('golang')
+    // addOptiLanguage('Rust')
 
-    //Edit
+    // //Edit
     const secondLang = document.querySelector("li:nth-child(2)")
-    console.log(secondLang);
-    //secondLang.innerHTML = "Mojo"
-    const newli = document.createElement('li')
-    newli.textContent = "Mojo"
-    secondLang.replaceWith(newli)
+    // console.log(secondLang);
+    // secondLang.innerHTML = "Mojo"
+    // const newli = document.createElement('li')
+    // newli.textContent = "Mojo"
+    // secondLang.replaceWith(newli)
 
-    //edit
-    const firstLang = document.querySelector("li:first-child")
-    firstLang.outerHTML = '<li>TypeScript</li>'
+    // //edit
+    // const firstLang = document.querySelector("li:first-child")
+    // firstLang.outerHTML = '<li>TypeScript</li>'
 
-    //remove
-    const lastLang = document.querySelector('li:last-child')
-    lastLang.remove()
+    // //remove
+    // const lastLang = document.querySelector('li:last-child')
+    // lastLang.remove()
 
 
 </script>
