@@ -1,3 +1,8 @@
+//JS is Prototype-based language
+//OOP programming
+//Object: Collection of properties and methods
+//Object literal,Constructor function,prototypes,Classes,Instances(new,this)
+//4 pillars
 const user = {
     username: "hitesh",
     loginCount: 8,
@@ -5,7 +10,7 @@ const user = {
 
     getUserDetails: function(){
         //console.log("Got user details from database");
-        // console.log(`Username: ${this.username}`);
+        // console.log(`Username: ${this.username}`);//this refer to current context
         console.log(this);
     }
 
@@ -15,7 +20,7 @@ const user = {
 
 //console.log(user.username)
 //console.log(user.getUserDetails());
-// console.log(this);
+// console.log(this);//global context//empty object
 
 
 function User(username, loginCount, isLoggedIn){
@@ -31,7 +36,10 @@ function User(username, loginCount, isLoggedIn){
     return this
 }
 
-const userOne = new User("hitesh", 12, true)
+const userOne = new User("hitesh", 12, true)//new keyword create new object
 const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
-//console.log(userTwo);
+console.log(userOne);
+console.log(userTwo);
+
+//instanceof ..read
